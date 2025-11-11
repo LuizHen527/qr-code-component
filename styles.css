@@ -16,7 +16,7 @@
 @font-face {
     font-family: 'Outfit';
     font-weight: 400;
-    src: url('./assets/fonts/outfit/Outfit-Regular.woff2') format('woff2')
+    src: url('./assets/fonts/outfit/Outfit-Regular.woff2') format('woff2'),
          url('./assets/fonts/outfit/Outfit-Regular.woff') format('woff');
 }
 
@@ -54,6 +54,17 @@ body {
 }
 
 .text-container {
-
     width: 288px;
+}
+
+.title-card {
+    font-family: 'Outfit';
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.text-card {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 16px;
 }
