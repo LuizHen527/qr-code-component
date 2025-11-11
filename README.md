@@ -17,13 +17,11 @@ This is a project made  to the [QR code component challenge on Frontend Mentor](
 
 ### Screenshot
 
- <!--![](./screenshot.jpg) -->
-
-Im going to add a screenshot later
+![web site screenshot](./assets/images/page-screenshot.png)
 
 ### Links
 
-- Live Site URL: [Im going to add later]()
+- Live Site URL: [GitHub pages](https://luizhen527.github.io/qr-code-component/)
 
 ## My process
 
@@ -32,7 +30,7 @@ Im going to add a screenshot later
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
+- Atomic commits
 
 ### What I learned
 
@@ -51,6 +49,10 @@ I learned how to set css custom properties. How I made it in this project:
 
 The ```:root``` pseudo-class to make my variables fall in all the others elements, because of the cascade.
 
+---
+
+I also learned how to self-host fonts. This means that I have the font files in the project folder. To do this we need to download the fonts and compress the .ttf files of the fonts we want. I used [this site](https://transfonter.org/) to compress. After compress...
+
 ### Continued development
 
 These are the things I still need to get better at or study more about:
@@ -61,7 +63,6 @@ These are the things I still need to get better at or study more about:
 
 [CSS Custom Properties introduction](https://www.example.com) - This video, by Kevin Powell, helped me to undestand how css custom variables, aka css variables, are defined. This guy is amazing.
 
-<!--- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+[Self host fonts tutorial](https://www.youtube.com/watch?v=zK-yy6C2Nck) - This videos teaches how to intall fonts, compress them and put on the CSS code. Great video by Kevin Powell.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**-->
+[Transfonter](https://transfonter.org/) - Site used to compress fonts to woff and woff2 file extensions.
