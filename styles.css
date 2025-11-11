@@ -14,3 +14,32 @@
 
     --font-size-paragraph: 15px;
 }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--slate-300);
+}
+
+.card-container {
+    display: flex;
+    width: 320px;
+    height: 499px;
+    flex-direction: column;
+    background-color: var(--white-clr);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container img {
+    width: 288px;
+    border-radius: 10px;
+}
+
+.text-container {
+    
+    width: 288px;
+}
