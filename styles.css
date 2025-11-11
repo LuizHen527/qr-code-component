@@ -6,6 +6,20 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 700;
+    src: url('./assets/fonts/outfit/Outfit-Bold.woff2') format('woff2'),
+         url('./assets/fonts/outfit/Outfit-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 400;
+    src: url('./assets/fonts/outfit/Outfit-Regular.woff2') format('woff2')
+         url('./assets/fonts/outfit/Outfit-Regular.woff') format('woff');
+}
+
 :root {
     --white-clr: hsl(0, 0%, 100%);
     --slate-300: hsl(212, 45%, 89%);
@@ -40,6 +54,6 @@ body {
 }
 
 .text-container {
-    
+
     width: 288px;
 }
