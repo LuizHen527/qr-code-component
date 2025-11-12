@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component
 
-This is a project made  to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Its not finnished yet.
+This is a project made  to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Status: Finished.
 
 ## Table of contents
 
@@ -51,7 +51,18 @@ The ```:root``` pseudo-class to make my variables fall in all the others element
 
 ---
 
-I also learned how to self-host fonts. This means that I have the font files in the project folder. To do this we need to download the fonts and compress the .ttf files of the fonts we want. I used [this site](https://transfonter.org/) to compress. After compress...
+I also learned how to self-host fonts. This means that I have the font files in the project folder. To do this we need to download the fonts and compress the .ttf files of the fonts we want. I used [this site](https://transfonter.org/) to compress. After compressing, put your files in the font folder and define them on the CSS like this:
+
+```css
+@font-face {
+    font-family: 'Outfit';
+    font-weight: 700;
+    src: url('./assets/fonts/outfit/Outfit-Bold.woff2') format('woff2'),
+         url('./assets/fonts/outfit/Outfit-Bold.woff') format('woff');
+}
+```
+
+I self-hosted the fonts on this project for learning. Because I was used to using the google URL.
 
 ### Continued development
 
